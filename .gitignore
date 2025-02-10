@@ -6,3 +6,4 @@ terraform.tfstate*
 terraform-provider
 .terraform/providers/registry.terraform.io/hashicorp/aws/5.86.0/darwin_arm64/terraform-provider-aws_v5.86.0_x5
 .terraform/providers/registry.terraform.io/hashicorp/aws/
+.terraform/
