@@ -1,6 +1,7 @@
 variable "name" {
-  default = "xavier123"  
+  default = "xavier178"  
 }
 
 variable "environment" { 
+  default = "dev"
 }
