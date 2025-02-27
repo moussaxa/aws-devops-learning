@@ -20,4 +20,11 @@ resource "aws_instance" "web" {
   tags = {
     Name = var.name
   }
+  provisioner "local-exec" {
+    command = "echo 'Creation successful' >> creation.txt"
+  }
+  provisioner "local-exec" {
+    when = destroy
+    command = "echo 'destroy successful' >> destroy.txt"
+  }
 }
