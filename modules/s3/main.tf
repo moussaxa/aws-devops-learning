@@ -2,7 +2,7 @@ resource "aws_s3_bucket" "xavier-bucket" {
   bucket = var.name
 
   tags = {
-    Name        = var.name
+    Name        = join("-",["xavier","bucket","testing"])
     Environment = var.environment
   }
 }
